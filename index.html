@@ -5,184 +5,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="scripts.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <header>
             <div class="header-content">
                 <div class="header-text">
-                    <h1>Amir Hossein Avizheh</h1>
-                    <p>Data Scientist</p>
+                    <button id="language-switch">فارسی</button>
+                    <h1 data-en="Amir Hossein Avizheh" data-fa="امیر حسین آویژه">Amir Hossein Avizheh</h1>
+                    <p data-en="Data Scientist" data-fa="دانشمند داده">Data Scientist</p>
                 </div>
-                <button id="language-toggle">Change Language</button>
             </div>
         </header>
 
         <section class="summary">
-            <h2>Summary</h2>
-            <p class="summary-text">I am an accomplished data scientist, in addition to technical knowledge,
-                I also have academic knowledge and I love working with data to discover patterns.
-            </p>
+            <h2 data-en="Summary" data-fa="خلاصه">Summary</h2>
+            <p data-en="I am an accomplished data scientist, in addition to technical knowledge, I also have academic knowledge and I love working with data to discover patterns." data-fa="من یک دانشمند داده موفق هستم، علاوه بر دانش فنی، دانش آکادمیک نیز دارم و عاشق کار با داده‌ها برای کشف الگوها هستم.">I am an accomplished data scientist, in addition to technical knowledge, I also have academic knowledge and I love working with data to discover patterns.</p>
         </section>
 
         <section class="education">
-            <h2>Education</h2>
-            <ul class="education-list">
-                <li>Bachelor of Information Technology from Islamic Azad University, South Tehran branch</li>
-                <li>Master's degree in data science from Shahid Beheshti University</li>
+            <h2 data-en="Education" data-fa="تحصیلات">Education</h2>
+            <ul>
+                <li data-en="Bachelor of Information Technology from Islamic Azad University, South Tehran branch" data-fa="کارشناسی فناوری اطلاعات از دانشگاه آزاد اسلامی، واحد تهران جنوب">Bachelor of Information Technology from Islamic Azad University, South Tehran branch</li>
+                <li data-en="Master's degree in data science from Shahid Beheshti University" data-fa="کارشناسی ارشد علوم داده از دانشگاه شهید بهشتی">Master's degree in data science from Shahid Beheshti University</li>
             </ul>
         </section>
 
         <section class="work-experience">
-            <h2>Work Experience</h2>
-            <ul class="work-experience-list">
+            <h2 data-en="Work Experience" data-fa="تجربه کاری">Work Experience</h2>
+            <ul>
                 <li>
-                    <h3>SQL Database Support Specialist (5 Years)</h3>
-                    <p><strong>Role:</strong> Provided comprehensive support for SQL databases, ensuring optimal performance, security, and reliability.</p>
-                    <p><strong>Responsibilities:</strong></p>
+                    <h3 data-en="SQL Database Support Specialist (5 Years)" data-fa="متخصص پشتیبانی پایگاه داده SQL (5 سال)">SQL Database Support Specialist (5 Years)</h3>
+                    <p data-en="<strong>Role:</strong> Provided comprehensive support for SQL databases, ensuring optimal performance, security, and reliability." data-fa="<strong>نقش:</strong> ارائه پشتیبانی کامل برای پایگاه داده‌های SQL، اطمینان از عملکرد بهینه، امنیت و قابلیت اطمینان."><strong>Role:</strong> Provided comprehensive support for SQL databases, ensuring optimal performance, security, and reliability.</p>
+                    <p data-en="<strong>Responsibilities:</strong>" data-fa="<strong>مسئولیت‌ها:</strong>"><strong>Responsibilities:</strong></p>
                     <ul>
-                        <li>Managed database installations, configurations, and maintenance.</li>
-                        <li>Implemented backup and recovery strategies to safeguard data.</li>
-                        <li>Optimized SQL queries and database performance to meet organizational needs.</li>
-                        <li>Assisted in troubleshooting and resolving database issues promptly.</li>
-                        <li>Collaborated with cross-functional teams to support data-driven projects.</li>
+                        <li data-en="Managed database installations, configurations, and maintenance." data-fa="مدیریت نصب، پیکربندی و نگهداری پایگاه داده.">Managed database installations, configurations, and maintenance.</li>
+                        <li data-en="Implemented backup and recovery strategies to safeguard data." data-fa="اجرای استراتژی‌های پشتیبان‌گیری و بازیابی برای محافظت از داده‌ها.">Implemented backup and recovery strategies to safeguard data.</li>
+                        <li data-en="Optimized SQL queries and database performance to meet organizational needs." data-fa="بهینه‌سازی کوئری‌های SQL و عملکرد پایگاه داده برای برآورده کردن نیازهای سازمانی.">Optimized SQL queries and database performance to meet organizational needs.</li>
+                        <li data-en="Assisted in troubleshooting and resolving database issues promptly." data-fa="کمک به عیب‌یابی و حل مشکلات پایگاه داده به صورت سریع.">Assisted in troubleshooting and resolving database issues promptly.</li>
+                        <li data-en="Collaborated with cross-functional teams to support data-driven projects." data-fa="همکاری با تیم‌های چند‌وظیفه‌ای برای پشتیبانی از پروژه‌های مبتنی بر داده.">Collaborated with cross-functional teams to support data-driven projects.</li>
                     </ul>
-                    <p><strong>Achievements:</strong></p>
+                    <p data-en="<strong>Achievements:</strong>" data-fa="<strong>دستاوردها:</strong>"><strong>Achievements:</strong></p>
                     <ul>
-                        <li>Successfully reduced database downtime by implementing proactive monitoring and maintenance routines.</li>
-                        <li>Enhanced data retrieval efficiency through query optimization, resulting in faster data access for end-users.</li>
+                        <li data-en="Successfully reduced database downtime by implementing proactive monitoring and maintenance routines." data-fa="کاهش موفقیت‌آمیز زمان از کار افتادن پایگاه داده با اجرای روش‌های نظارت و نگهداری فعال.">Successfully reduced database downtime by implementing proactive monitoring and maintenance routines.</li>
+                        <li data-en="Enhanced data retrieval efficiency through query optimization, resulting in faster data access for end-users." data-fa="افزایش بهره‌وری بازیابی داده‌ها از طریق بهینه‌سازی کوئری، منجر به دسترسی سریع‌تر داده‌ها برای کاربران نهایی.">Enhanced data retrieval efficiency through query optimization, resulting in faster data access for end-users.</li>
                     </ul>
                 </li>
                 <li>
-                    <h3>Self-Learning Data Scientist (2 Years)</h3>
-                    <p><strong>Role:</strong> Transitioned to a data science career through self-directed learning and practical project experience.</p>
-                    <p><strong>Skills Acquired:</strong></p>
+                    <h3 data-en="Self-Learning Data Scientist (2 Years)" data-fa="دانشمند داده خودآموز (2 سال)">Self-Learning Data Scientist (2 Years)</h3>
+                    <p data-en="<strong>Role:</strong> Transitioned to a data science career through self-directed learning and practical project experience." data-fa="<strong>نقش:</strong> انتقال به حرفه علوم داده از طریق یادگیری خودآموز و تجربه پروژه‌های عملی."><strong>Role:</strong> Transitioned to a data science career through self-directed learning and practical project experience.</p>
+                    <p data-en="<strong>Skills Acquired:</strong>" data-fa="<strong>مهارت‌های کسب شده:</strong>"><strong>Skills Acquired:</strong></p>
                     <ul>
-                        <li>Mastered programming languages such as Python and R for data analysis.</li>
-                        <li>Developed expertise in machine learning algorithms and deep learning techniques.</li>
-                        <li>Gained proficiency in data visualization tools like Power BI and Excel for presenting insights.</li>
-                        <li>Acquired strong skills in statistical analysis and big data handling.</li>
+                        <li data-en="Mastered programming languages such as Python and R for data analysis." data-fa="تسلط بر زبان‌های برنامه‌نویسی مانند Python و R برای تحلیل داده‌ها.">Mastered programming languages such as Python and R for data analysis.</li>
+                        <li data-en="Developed expertise in machine learning algorithms and deep learning techniques." data-fa="توسعه تخصص در الگوریتم‌های یادگیری ماشین و تکنیک‌های یادگیری عمیق.">Developed expertise in machine learning algorithms and deep learning techniques.</li>
+                        <li data-en="Gained proficiency in data visualization tools like Power BI and Excel for presenting insights." data-fa="کسب مهارت در ابزارهای تصویری‌سازی داده‌ها مانند Power BI و Excel برای ارائه بینش‌ها.">Gained proficiency in data visualization tools like Power BI and Excel for presenting insights.</li>
+                        <li data-en="Acquired strong skills in statistical analysis and big data handling." data-fa="کسب مهارت‌های قوی در تحلیل آماری و مدیریت داده‌های بزرگ.">Acquired strong skills in statistical analysis and big data handling.</li>
                     </ul>
-                    <p><strong>Projects and Achievements:</strong></p>
+                    <p data-en="<strong>Projects and Achievements:</strong>" data-fa="<strong>پروژه‌ها و دستاوردها:</strong>"><strong>Projects and Achievements:</strong></p>
                     <ul>
-                        <li>Completed numerous online courses and certifications in data science and machine learning.</li>
-                        <li>Implemented machine learning models to solve real-world problems, including predictive analytics and pattern recognition.</li>
-                        <li>Analyzed large datasets to extract actionable insights and drive data-driven decision-making.</li>
-                        <li>Published a research article on re-ranking search engine results via machine learning, showcasing advanced analytical skills.</li>
+                        <li data-en="Completed numerous online courses and certifications in data science and machine learning." data-fa="تکمیل تعداد زیادی دوره‌های آنلاین و گواهی‌نامه‌ها در علوم داده و یادگیری ماشین.">Completed numerous online courses and certifications in data science and machine learning.</li>
+                        <li data-en="Implemented machine learning models to solve real-world problems, including predictive analytics and pattern recognition." data-fa="اجرای مدل‌های یادگیری ماشین برای حل مشکلات دنیای واقعی، از جمله تحلیل پیش‌بینی و شناسایی الگو.">Implemented machine learning models to solve real-world problems, including predictive analytics and pattern recognition.</li>
+                        <li data-en="Analyzed large datasets to extract actionable insights and drive data-driven decision-making." data-fa="تحلیل مجموعه داده‌های بزرگ برای استخراج بینش‌های عملی و هدایت تصمیم‌گیری‌های مبتنی بر داده‌ها.">Analyzed large datasets to extract actionable insights and drive data-driven decision-making.</li>
+                        <li data-en="Published a research article on re-ranking search engine results via machine learning, showcasing advanced analytical skills." data-fa="انتشار یک مقاله پژوهشی در مورد رتبه‌بندی مجدد نتایج موتور جستجو از طریق یادگیری ماشین، نمایش‌دهنده مهارت‌های تحلیل پیشرفته.">Published a research article on re-ranking search engine results via machine learning, showcasing advanced analytical skills.</li>
                     </ul>
                 </li>
             </ul>
         </section>
 
         <section class="skills">
-            <h2>Skills</h2>
+            <h2 data-en="Skills" data-fa="مهارت‌ها">Skills</h2>
             <div class="skills-grid">
                 <div class="skill">
-                    <span>Python</span>
-                    <ul>
-                        <li>Data Analysis</li>
-                        <li>Web Scraping</li>
-                        <li>Automation</li>
-                    </ul>
+                    <span data-en="Python" data-fa="پایتون">Python</span>
+                    <p data-en="Data Analysis, Web Scraping, Automation" data-fa="تحلیل داده، وب اسکریپینگ، اتوماسیون">Data Analysis, Web Scraping, Automation</p>
                 </div>
                 <div class="skill">
-                    <span>R</span>
-                    <ul>
-                        <li>Data Visualization</li>
-                        <li>Statistical Analysis</li>
-                        <li>Machine Learning</li>
-                    </ul>
+                    <span data-en="R" data-fa="آر">R</span>
+                    <p data-en="Statistical Analysis, Data Visualization" data-fa="تحلیل آماری، تصویری‌سازی داده‌ها">Statistical Analysis, Data Visualization</p>
                 </div>
                 <div class="skill">
-                    <span>Machine Learning</span>
-                    <ul>
-                        <li>Supervised Learning</li>
-                        <li>Unsupervised Learning</li>
-                        <li>Model Evaluation</li>
-                    </ul>
+                    <span data-en="Machine Learning" data-fa="یادگیری ماشین">Machine Learning</span>
+                    <p data-en="Supervised Learning, Unsupervised Learning" data-fa="یادگیری نظارت شده، یادگیری بدون نظارت">Supervised Learning, Unsupervised Learning</p>
                 </div>
                 <div class="skill">
-                    <span>Deep Learning</span>
-                    <ul>
-                        <li>Neural Networks</li>
-                        <li>Convolutional Neural Networks</li>
-                        <li>Recurrent Neural Networks</li>
-                    </ul>
+                    <span data-en="Deep Learning" data-fa="یادگیری عمیق">Deep Learning</span>
+                    <p data-en="Neural Networks, CNNs, RNNs" data-fa="شبکه‌های عصبی، CNN، RNN">Neural Networks, CNNs, RNNs</p>
                 </div>
                 <div class="skill">
-                    <span>Power BI</span>
-                    <ul>
-                        <li>Dashboard Creation</li>
-                        <li>Data Modeling</li>
-                        <li>Data Analysis Expressions (DAX)</li>
-                    </ul>
+                    <span data-en="Power BI" data-fa="پاور بی آی">Power BI</span>
+                    <p data-en="Dashboards, Reports" data-fa="داشبوردها، گزارش‌ها">Dashboards, Reports</p>
                 </div>
                 <div class="skill">
-                    <span>SQL</span>
-                    <ul>
-                        <li>Query Optimization</li>
-                        <li>Database Design</li>
-                        <li>Stored Procedures</li>
-                    </ul>
+                    <span data-en="SQL" data-fa="اس‌کیو‌ال">SQL</span>
+                    <p data-en="Database Management, Query Optimization" data-fa="مدیریت پایگاه داده، بهینه‌سازی کوئری">Database Management, Query Optimization</p>
                 </div>
                 <div class="skill">
-                    <span>Statistical Analysis</span>
-                    <ul>
-                        <li>EDA</li>
-                        <li>Hypothesis Testing</li>
-                        <li>Regression Analysis</li>
-                        <li>ANOVA</li>
-                    </ul>
+                    <span data-en="Statistical Analysis" data-fa="تحلیل آماری">Statistical Analysis</span>
+                    <p data-en="Hypothesis Testing, Regression Analysis" data-fa="آزمون فرضیه، تحلیل رگرسیون">Hypothesis Testing, Regression Analysis</p>
                 </div>
                 <div class="skill">
-                    <span>Excel</span>
-                    <ul>
-                        <li>ETL</li>
-                        <li>Power Query</li>
-                        <li>Data Modeling</li>
-                        <li>Power Pivot</li>
-                    </ul>
+                    <span data-en="Excel" data-fa="اکسل">Excel</span>
+                    <p data-en="ETL, Power Query, Data Modeling, Power Pivot" data-fa="ETL، پاور کوئری، مدل‌سازی داده، پاور پیوت">ETL, Power Query, Data Modeling, Power Pivot</p>
                 </div>
                 <div class="skill">
-                    <span>Big Data</span>
-                    <ul>
-                        <li>Hadoop</li>
-                        <li>Spark</li>
-                        <li>NoSQL Databases</li>
-                    </ul>
+                    <span data-en="Big Data" data-fa="داده‌های بزرگ">Big Data</span>
+                    <p data-en="Hadoop, Spark" data-fa="هادوب، اسپارک">Hadoop, Spark</p>
                 </div>
                 <div class="skill">
-                    <span>Computer Vision</span>
-                    <ul>
-                        <li>Image Processing</li>
-                        <li>Object Detection</li>
-                        <li>Feature Extraction</li>
-                    </ul>
+                    <span data-en="Computer Vision" data-fa="بینایی کامپیوتر">Computer Vision</span>
+                    <p data-en="Image Processing, Object Detection" data-fa="پردازش تصویر، تشخیص اشیاء">Image Processing, Object Detection</p>
                 </div>
             </div>
         </section>
 
         <section class="articles">
-            <h2>Articles</h2>
-            <ul class="articles-list">
-                <li><a href="https://ieeexplore.ieee.org/document/10139285" target="_blank">Re-rank Search Engine Results via Machine Learning</a></li>
+            <h2 data-en="Articles" data-fa="مقالات">Articles</h2>
+            <ul>
+                <li><a href="https://ieeexplore.ieee.org/document/10139285" target="_blank" data-en="Re-rank Search Engine Results via Machine Learning" data-fa="رتبه‌بندی مجدد نتایج موتور جستجو از طریق یادگیری ماشین">Re-rank Search Engine Results via Machine Learning</a></li>
             </ul>
         </section>
 
         <section class="contact">
-            <h2>Contact With Me</h2>
-            <ul class="contact-list">
-                <li><a href="mailto:amiravizheh9@gmail.com">Email</a></li>
-                <li><a href="http://T.me/godqn" target="_blank">Telegram</a></li>
+            <h2 data-en="Contact With Me" data-fa="تماس با من">Contact With Me</h2>
+            <ul>
+                <li><a href="mailto:amiravizheh9@gmail.com" data-en="Email" data-fa="ایمیل">Email</a></li>
+                <li><a href="http://T.me/godqn" target="_blank" data-en="Telegram" data-fa="تلگرام">Telegram</a></li>
             </ul>
         </section>
 
         <footer>
-            <small>
-                &copy; Amir Hossein Avizheh. All Rights Reserved.
-            </small>
+            <small data-en="&copy; Amir Hossein Avizheh. All Rights Reserved." data-fa="&copy; امیر حسین آویژه. کلیه حقوق محفوظ است.">&copy; Amir Hossein Avizheh. All Rights Reserved.</small>
         </footer>
     </div>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
